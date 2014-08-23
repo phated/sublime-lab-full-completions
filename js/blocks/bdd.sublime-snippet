@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+var lab = exports.lab = require('lab').script();
+var describe = lab.describe;
+var it = lab.it;
+var before = lab.before;
+var beforeEach = lab.beforeEach;
+var after = lab.after;
+var afterEach = lab.afterEach;
+var expect = require('lab').expect;
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>bdd</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>BDD</description>
+</snippet>

@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-after(function () {
-	$1
+after(function(done){
+  $1
+  done();
 });$0
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->

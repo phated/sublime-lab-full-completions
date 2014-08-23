@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-it('${1:expectation}', function () {
-	$2
+it('${1:expectation}', function(done){
+  $2
+  done();
 });
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
